@@ -114,4 +114,34 @@ p {
     color: white;
     display: block;
     text-align: left;
+    margin-left: 20px;
 }
+/*About styling ends*/
+
+/*Portfolio styling begins*/
+
+h3 {
+ color: white;
+ text-decoration: underline; 
+ margin-left: 10px;  
+}
+
+.project {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #51557E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.filler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+

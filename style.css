@@ -121,6 +121,153 @@ p {
 /*Portfolio styling begins*/
 
 h3 {
+    color: white;
+    text-decoration: underline; 
+    margin-left: 10px;  
+   }
+   
+   .project {
+       display: block;
+       align-items: center;
+       justify-content: center;
+       border: 3px solid #51557E;
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   
+   .filler {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 20px;
+       margin-left: 10px;
+   }
+   
+   
+   
+   html {
+    font-style: normal; 
+    font-family: arvo; 
+    background-color: rgb(33, 33, 33);
+}
+/*start nav bar styling*/
+a:link {
+    color:rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(147, 149, 149);
+}
+
+a:hover {
+    color: rgb(110, 153, 226);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/*End nav bar styling*/
+/*Begin Index/Home page styling*/
+.name {
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    font-size: 40px;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+#img1 {
+    width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border: 3px solid;
+
+}
+/*End Index/Home page styling*/ 
+
+/* About page styling begins*/
+
+h1 {
+    display: block;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+#container1 {
+    align-items:center;
+    display: grid;
+    margin: auto;
+    width: auto;
+    padding-left:15%;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 5px;
+}
+
+#container2 {
+    align-items:center;
+    display: grid;
+    margin: auto;
+    width: auto;
+    padding-left:15%;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 5px;
+}
+
+#img2 {
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#img3 {
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#img2text {
+    font-size: 20px;
+}
+
+#img3text {
+    font-size: 20px;
+}
+
+p {
+    direction: ltr;
+    color: white;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+/*About styling ends*/
+
+/*Portfolio styling begins*/
+
+h3 {
  color: white;
  text-decoration: underline; 
  margin-left: 10px;  

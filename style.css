@@ -4,6 +4,7 @@ html {
     background-color: rgb(33, 33, 33);
 }
 /*start nav bar styling*/
+/* 10/30 make nav bar persistent w/more styling*/
 a:link {
     color:rgb(255, 255, 255);
 }

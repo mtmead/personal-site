@@ -22,15 +22,19 @@
         <!-- add image here in a header type bar-->
     </section>
     <section>
-        <form action="/block09/personal-site/submit contact.html">
-            <label for="firstname"> First Name: </label>
-            <input type="text" id="firstname" name="fname"/>
-            <label for="lastname"> Last Name: </label>
-            <input type="text" id="lastname" name="lname"/>
-            <label for="email"> Email: </label>
-            <input type="email" id="email_add" name="addemail"/>
-            <label for="querybox"> Query: </label>
-            <input type="text" id="querybox" name="qbox"/>
+        <form class="cform" action="/block09/personal-site/submit contact.html">
+            <div id="infoform">
+                <label for="firstname"> First Name: </label>
+                <input type="text" id="firstname" name="fname"/>
+                <label for="lastname"> Last Name: </label>
+                <input type="text" id="lastname" name="lname"/>
+                <label for="email"> Email: </label>
+                <input type="email" id="email_add" name="addemail"/>
+            </div>
+            <div id="msgform"> 
+                <label for="querybox"> Message: </label>
+                <input type="text" id="querybox" name="qbox"/>
+            </div>
             <input type="submit" class="submit_button"/>
         </form>
     </section>
